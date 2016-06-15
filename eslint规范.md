@@ -52,7 +52,7 @@ let dataSource = new ViewPager.DataSource({
 `// bad`
 `function test(){
   console.log('test');
-}`
+}`  
 `
 // good`  `
 function test() {
