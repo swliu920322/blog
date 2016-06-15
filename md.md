@@ -21,6 +21,7 @@
 #链接用方括号和圆括号来，方括号用来显示文字，圆括号用来放链接
 This is [our website](http://www.izirong.com)
 
+这边测试图片
 
 ![222](/test.png)
 
