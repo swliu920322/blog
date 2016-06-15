@@ -18,7 +18,7 @@
 let dataSource = new ViewPager.DataSource({
       pageHasChanged: (p1, p2) => p1 !== p2,
     });
-`
+`  
 `//good`
 `const dataSource = new ViewPager.DataSource({
       pageHasChanged: (p1, p2) => p1 !== p2,
@@ -53,14 +53,14 @@ let dataSource = new ViewPager.DataSource({
 `function test(){
   console.log('test');
 }`  
+`//good`  
 `
-// good`  `
 function test() {
   console.log('test');
 }
 ` 
 
---
+---
 #换行
 >单行超过100，要换行    
 >标签长的要换行，例如:  
