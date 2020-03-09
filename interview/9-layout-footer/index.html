@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            transition: all 3000ms ease-in-out;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header style="height: 60px; background-color: red">
+
+</header>
+<main id="main" style="height: 100vh; background-color: yellow;">
+
+</main>
+<footer style="height: 140px;  background-color: blue; position: fixed; bottom: 0; left: 0;right: 0">
+</footer>
+<footer style="height: 140px;">
+    <span>222</span>
+</footer>
+<script>
+  document.onscroll = function () {
+    console.log(document.querySelector('span').getBoundingClientRect())
+    const footer = document.querySelectorAll('footer');
+    if (document.getElementById('main').getBoundingClientRect().top <= 0) {
+      [].forEach.call(footer, i => i.style.display = 'none');
+    } else {
+      [].forEach.call(footer, i => i.style.display = 'block');
+    }
+  };
+
+</script>
+</body>
+</html>

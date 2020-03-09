@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      // var obj = {
+      //   id: "awesome",
+      //   cool: function coolFn() {
+      //     console.log( this.id );
+      //   } };
+      // var id = "not awesome"
+      // obj.cool(); // 酷
+      // setTimeout( () => obj.cool(), 100 ); // 不酷
+      // setTimeout(obj.cool, 100 ); // 不酷
+      var obj = {
+        id: "awesome",
+        cool: function coolFn() {
+          var self = this;
+          console.log( self.id );
+        } };
+      var id = "not awesome"
+      var cool = function () {
+        console.log(this.id)
+      }
+      // obj.cool(); // 酷
+      console.log(cool())
+      console.log(() => cool())
+      // console.log(() => obj.cool() === obj.cool.bind(obj))
+      // setTimeout( () => obj.cool(), 100 ); // 不酷
+      // setTimeout(obj.cool.bind(obj), 100 ); // 不酷
+      // setTimeout(obj.cool, 100 ); // 不酷
+      var obj = { count: 0,
+        cool: function coolFn() {
+            setTimeout(function a() {
+              this.count++;
+              console.log( "awesome?" );
+            }.bind(this), 100 );
+          }
+      };
+      // obj.cool(); // 酷吧?
+    </script>
+</body>
+</html>

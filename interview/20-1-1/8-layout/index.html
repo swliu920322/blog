@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header style="height: 40px;background-color: red"></header>
+<main id="main" style="height: 100vh;background-color: yellow"></main>
+<footer id="footer" style="height: 60px;background-color: blue;position: fixed;bottom: 0;left: 0; right: 0"></footer>
+</body>
+<script>
+  document.body.onscroll = function () {
+    console.log(document.getElementById('main').getBoundingClientRect().top);
+    if (document.getElementById('main').getBoundingClientRect().top <= 0) {
+      document.getElementById('footer').style.display = 'none';
+    } else {
+      document.getElementById('footer').style.display = 'block';
+    }
+  };
+</script>
+</html>

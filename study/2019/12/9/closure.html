@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var fn;
+  function foo() {
+    var a = 2;
+    function baz() {
+      console.log(a)
+    }
+    fn = baz;
+  }
+  function bar() {
+    fn();
+    console.log(JSON.stringify(fn))
+  }
+  foo()
+  bar()
+</script>
+</body>
+</html>

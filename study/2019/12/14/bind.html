@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // if (!Function.prototype.bind) {
+  // Function.prototype.bind = function (onThis) {
+  //   if (typeof this !== 'function') {
+  //     throw new Error('bind must be a function')
+  //   }
+  //   console.log(onThis);
+  //   var args = Array.prototype.slice.call(arguments, 1),
+  //     fToBind = this,
+  //     fNOP = function () {
+  //     },
+  //     fBound = function () {
+  //       console.log(fToBind);
+  //       console.log(this);
+  //       console.log(onThis);
+  //       return fToBind.apply(
+  //         (this instanceof fNOP && onThis ? this : onThis),
+  //         // fToBind,
+  //         //   args.concat(Array.prototype.slice.call(arguments))
+  //         args.concat(Array.prototype.slice.call(arguments)));
+  //     };
+  //   fNOP.prototype = this.prototype;
+  //   fBound.prototype = new fNOP();
+  //   return fBound;
+  // }
+  // // }
+  //
+  // var a = {bb: 133};
+  // var bb = 1;
+  //
+  // function sayHello() {
+  //   console.log(this.bb);
+  //   return this.bb;
+  // }
+  //
+  // sayHello();
+  // var c = sayHello.bind(a);
+  // c();
+  // new c();
+  Function.prototype.bind = function (onThis) {
+    var that = this;
+    var args = Array.prototype.slice.call(arguments, 1);
+    var fBind = function () {
+      const tha = this instanceof temp && onThis ? this : onThis;
+      // return that.apply(tha, args.concat(Array.prototype.slice.call(arguments)))
+      return that.apply(onThis, args.concat(Array.prototype.slice.call(arguments)))
+    }
+    var temp = function () {}
+    temp.prototype = this.prototype;
+    fBind.prototype = new temp();
+    return fBind;
+  }
+  function foo(p1, p2) {
+    this.val = p1 + p2;
+    console.log(this.val);
+  }
+  var bar = foo.bind(null, 'p1');
+  var baz = new bar('p2');
+  console.log(baz.val)
+
+</script>
+</body>
+</html>

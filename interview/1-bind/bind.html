@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="bind.js"></script>
+<script>
+  this.name = 20;
+
+  function test(data, data2) {
+    this.name = '🐶构造函数';
+    console.log(data2);
+  };
+  test.prototype.init = function () {
+    console.log(this.name);
+  };
+  var result = test.bind(this, '🍌月薪三万');
+  result('呀哈哈');
+  var a = new result('aaa');
+  a.init();
+</script>
+</body>
+</html>
