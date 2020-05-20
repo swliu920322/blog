@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="name"></h1>
+<input type="text">
+<input type="button" value="改变data内容" onclick="changeInput()">
+<script src="observer.js"></script>
+<script src="watcher.js"></script>
+<script>
+    function myVue(data, el, exp) {
+        if (typeof data === 'function') {
+            this.data = data();
+        } else {
+            this.data = data;
+        }
+        observable(this.data);  // 收集依赖                     //将数据变的可观测
+        el.innerHTML = this.data[exp];           // 初始化模板数据的值
+        new Watcher(this, exp, val => el.innerHTML = val);
+        // new Watcher(this, exp, val => {console.log(val)});
+        return this;
+    }
+
+    var da = () => ({name: 'hello world'});
+    // var da = {name: 'hello world'};
+    var myVue = new myVue(da, document.getElementById('name'), 'name') //
+    document.querySelector('input').oninput = e => myVue.data.name = e.target.value;
+
+    function changeInput() {
+        myVue.data.name = '大盘鸡'
+    }
+</script>
+</body>
+</html>

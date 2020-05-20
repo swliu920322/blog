@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link href="reset.css" rel="stylesheet"/>
+  <style>
+    div {
+      border: 1px solid;
+      width: 400px;
+      height: 300px;
+      margin: 30px;
+    }
+
+    ul li {
+      float: left;
+      width: 25%;
+      height: 40px;
+      background: cadetblue;
+      box-sizing: border-box;
+      border-bottom: 1px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    li + li {
+      border-left: 1px solid;
+    }
+
+    .active {
+      background: none;
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <ul>
+    <li class="active">11</li>
+    <li>22</li>
+    <li>33</li>
+    <li>44</li>
+  </ul>
+  <h1>111111</h1>
+</div>
+</body>
+</html>

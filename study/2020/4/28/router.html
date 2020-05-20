@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li><a href="#/">turn white</a></li>
+    <li><a href="#/blue">turn blue</a></li>
+    <li><a href="#/green">turn green</a></li>
+    <input id="file" type="file" onchange="fileChange(this)">
+</ul>
+<script>
+
+    function slice(file, piece = 1024 * 1024 * 5) {
+        let totalSize = file.size; // 文件总大小
+        let start = 0; // 每次上传的开始字节
+        let end = start + piece; // 每次上传的结尾字节
+        let chunks = []
+        while (start < totalSize) {
+            // 根据长度截取每次需要上传的数据
+            // File对象继承自Blob对象，因此包含slice方法
+            let blob = file.slice(start, end);
+            chunks.push(blob)
+            start = end;
+            end = start + piece;
+        }
+        return chunks
+    }
+
+    function fileChange(e) {
+        console.dir(e)
+        let file = document.getElementById('file').files[0]
+        const LENGTH = 1024 * 1024 * 0.1;
+        let chunks = slice(file, LENGTH);
+        console.log({file, chunks})
+    }
+    function Router() {
+        this.routes = {};
+        this.currentUrl = '';
+    }
+
+    Router.prototype.route = function (path, callback) {
+        this.routes[path] = callback || function () {
+        };
+    };
+    Router.prototype.refresh = function () {
+        this.currentUrl = location.hash.slice(1) || '/';
+        this.routes[this.currentUrl]();
+    };
+    Router.prototype.init = function () {
+        // window.addEventListener('load', this.refresh.bind(this), false);
+        window.onload = e => this.refresh();
+        window.onhashchange = e => this.refresh();
+        // window.addEventListener('hashchange', this.refresh.bind(this), false);
+    }
+    window.Router = new Router();
+    window.Router.init();
+
+    var content = document.querySelector('body');
+
+    // change Page anything
+    function changeBgColor(color) {
+        content.style.backgroundColor = color;
+    }
+
+    Router.route('/', function () {
+        changeBgColor('white');
+    });
+    Router.route('/blue', function () {
+        changeBgColor('blue');
+    });
+    Router.route('/green', function () {
+        changeBgColor('green');
+    });
+
+</script>
+</body>
+</html>
+
+<!--
+    前端路由总结， 设计一个路由类， url，和 路径集合，[routerName]: Function
+    路由实例监听 window.onload  window.onhashchange 走刷新路由方法
+    注册路由的时候收集回调，刷新的时候发布回调
+-->
