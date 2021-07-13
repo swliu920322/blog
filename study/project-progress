@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T10:05:01.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="2wNlSbnAM1M0nz0j6QIr" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T14:12:30.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="nbNunTfFclzv-5ohhSwk" version="14.8.2" type="github">
   <diagram id="1w0DhflccPhkvpJOalvl" name="Page-1">
-    <mxGraphModel dx="874" dy="1739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1457" dy="2119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,6 +246,15 @@
         </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-73" value="已开始的项目不能删除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="-90" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-74" value="数据直接在数据库里面做" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-76" value="显示我负责的任务进度&lt;br&gt;和相关其他人的任务进度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-77" value="TODO 后期把bug反馈什么做到这边" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="290" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
