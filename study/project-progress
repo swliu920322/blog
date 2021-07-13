@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T09:31:57.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qcL7sE2oerUeFrfRf6oq" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T09:40:55.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Q1S1vQio6KQkrOBHMCLz" version="14.8.2" type="github">
   <diagram id="1w0DhflccPhkvpJOalvl" name="Page-1">
     <mxGraphModel dx="874" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,13 +25,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-2" value="工作台-我的项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="quUbB8uUjq_NhaWdr1al-4" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="quUbB8uUjq_NhaWdr1al-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quUbB8uUjq_NhaWdr1al-4" target="quUbB8uUjq_NhaWdr1al-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="130" />
+              <mxPoint x="600" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quUbB8uUjq_NhaWdr1al-4" target="quUbB8uUjq_NhaWdr1al-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="140" />
+              <mxPoint x="600" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quUbB8uUjq_NhaWdr1al-4" target="quUbB8uUjq_NhaWdr1al-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="120" />
+              <mxPoint x="600" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-4" value="项目看板" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-6" value="点击进入项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="130" width="90" height="20" as="geometry" />
+          <mxGeometry x="323.5" y="130" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-7" value="弹框创建项目" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="-20" width="120" height="60" as="geometry" />
@@ -44,6 +68,55 @@
         </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-13" value="点击全部" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quUbB8uUjq_NhaWdr1al-14" target="quUbB8uUjq_NhaWdr1al-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="-90" />
+              <mxPoint x="620" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quUbB8uUjq_NhaWdr1al-14" target="quUbB8uUjq_NhaWdr1al-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="-90" />
+              <mxPoint x="760" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-14" value="项目模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-16" value="项目成员" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-18" value="项目迭代" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-21" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-22" value="业务模块&lt;br&gt;以树呈现" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-25" value="api模块&lt;br&gt;以树呈现" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-30" value="分配前端和产品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="-280" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-31" value="分配后端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-32" value="关联后端接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-260" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-33" value="关联前端页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-260" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-34" value="关联表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
