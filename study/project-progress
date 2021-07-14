@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T14:12:30.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="nbNunTfFclzv-5ohhSwk" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T04:24:20.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="vBkrBrttPL10m8DIxKpe" version="14.8.2" type="github">
   <diagram id="1w0DhflccPhkvpJOalvl" name="Page-1">
-    <mxGraphModel dx="1457" dy="2119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="727" dy="1602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,6 +211,20 @@
         <mxCell id="quUbB8uUjq_NhaWdr1al-55" value="历史迭代" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="40" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="quUbB8uUjq_NhaWdr1al-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="950" y="180" />
+              <mxPoint x="950" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="quUbB8uUjq_NhaWdr1al-58" target="quUbB8uUjq_NhaWdr1al-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-58" value="当前迭代进度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="120" width="120" height="60" as="geometry" />
         </mxCell>
@@ -255,6 +269,27 @@
         </mxCell>
         <mxCell id="quUbB8uUjq_NhaWdr1al-77" value="TODO 后期把bug反馈什么做到这边" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="155" y="290" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-78" value="多个小迭代" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-79" value="梳理各个人员的时间线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="200" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-83" value="多个小迭代" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-86" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%BF%AD%E4%BB%A3%E5%AE%8C%E6%88%90%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221160%22%20y%3D%22120%22%20width%3D%2260%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-88" value="迭代变更记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="180" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-89" value="每次变更，都要备份初始迭代， 保证复盘比较" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="230" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="quUbB8uUjq_NhaWdr1al-93" value="确立优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="-40" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
