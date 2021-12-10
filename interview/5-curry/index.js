@@ -8,7 +8,7 @@ let curry = fn => {
     return fn.apply(null, args);
   };
 };
-const add = (x, y, z) => x + y + z;
+const add = (x, y, z,m) => x + y + z + m;
 const buf = curry(add);
 
 console.log(buf(1)(2)(3));

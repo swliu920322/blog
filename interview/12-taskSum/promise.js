@@ -5,7 +5,7 @@ const REJECTED = 'rejected';
 function MyPromise(fn) {
   const that = this;
   this.state = PENDING;
-  this.val = null;
+    this.val = null;
   this.resolvedCallbacks = [];
   this.rejectedCallbacks = [];
 
