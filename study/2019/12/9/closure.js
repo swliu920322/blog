@@ -19,7 +19,7 @@
     var a = 2;
 
     function baz() {
-      console.log(a); // 2
+      console.log(a); // day2
     }
 
     bar(baz);

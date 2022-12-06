@@ -103,7 +103,7 @@ new MyPromise((resolve, reject) => {
 })
 // new Promise((resolve, reject) => {
 //   setTimeout(() => {
-//     resolve(1);
+//     resolve(day1);
 //     console.log('aaa');
 //   }, 0);
 // }).then(value => {

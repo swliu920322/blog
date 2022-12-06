@@ -5,7 +5,7 @@ async function async1() {
 }
 
 async function async2() {
-  console.log('async 2');
+  console.log('async day2');
 }
 
 console.log('script start');
@@ -23,7 +23,7 @@ console.log('script end');
 
 // script start
 // async1 start
-// async 2
+// async day2
 // promise1
 // script end
 // async1 end

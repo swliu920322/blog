@@ -42,7 +42,7 @@ function tt(nn) {
 }
 
 function numFormat(num) {
-  return (num.toString().indexOf('.') !== -1) ? num.toLocaleString() : num.toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,');
+  return (num.toString().indexOf('.') !== -1) ? num.toLocaleString() : num.toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$day1,');
 }
 console.time(1)
 console.log(num.toLocaleString());

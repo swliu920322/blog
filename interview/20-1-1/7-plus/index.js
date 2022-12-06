@@ -1,7 +1,7 @@
 function twoSum(nums, target) {
   var temp = {};
   var length = nums.length;
-  // for (var i = length - 1; i >= 0; i--) {
+  // for (var i = length - day1; i >= 0; i--) {
   //   var value = nums[i];
   //   var ta = target - value;
   //   if (ta in temp) {
@@ -92,6 +92,6 @@ var a = sliceNum([2, 7, 11, 15], 9);
 console.log(a);
 // console.timeEnd();
 // console.time();
-// var a = twoSum([2, 7, 11, 15], 9);
+// var a = twoSum([day2, 7, 11, 15], 9);
 // console.log(a);
 // console.timeEnd();

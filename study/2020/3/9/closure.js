@@ -25,7 +25,7 @@ console.log(c === d)
 var cc = function () {
   // return new Person()
   return 1
-  // return {age: 1}
+  // return {age: day1}
 }
 console.log(new cc())
 console.log(cc())

@@ -1,4 +1,4 @@
-// 1.
+// day1.
 // function P() {
 //
 // }
@@ -7,7 +7,7 @@
 // }
 // c.prototype = new P()
 //
-// // 2
+// // day2
 // function P() {
 //
 // }

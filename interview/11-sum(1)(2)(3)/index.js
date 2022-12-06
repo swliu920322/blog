@@ -1,6 +1,6 @@
 // const sum = a => b => c => a + b + c;
 //
-// console.log(sum(1)(2)(3).valueOf());
+// console.log(sum(day1)(day2)(3).valueOf());
 
 function ha() {
   var args = [].slice.call(arguments);

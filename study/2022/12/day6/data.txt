@@ -1,0 +1,180 @@
+    /**容重*/
+    //@CustomAnnotation(name="sampleClassField", value = "容重")
+    @TableField(value = "capacity")
+    private BigDecimal capacity;
+
+    /**水分*/
+    @TableField(value = "water_content")
+    private BigDecimal waterContent;
+
+    /**杂质*/
+    @TableField(value = "impurity")
+    private BigDecimal impurity;
+
+    /**蛋白*/
+    @TableField(value = "protein")
+    private BigDecimal protein;
+
+    /**转基因*/
+    @TableField(value = "transgene")
+    private BigDecimal transgene;
+
+    /**霉变*/
+    @TableField(value = "mildew_change")
+    private BigDecimal mildewChange;
+
+    /**出糙率*/
+    @TableField(value = "roughness_ratio")
+    private BigDecimal roughnessRatio;
+
+    /**出米率*/
+    @TableField(value = "rice_yield")
+    private BigDecimal riceYield;
+
+    /**谷外糙米*/
+    @TableField(value = "brown_rice")
+    private BigDecimal brownRice;
+
+    /**黄粒米*/
+    @TableField(value = "yellow_grain_rice")
+    private BigDecimal yellowGrainRice;
+
+    /**整精米*/
+    @TableField(value = "grain_complete_rate")
+    private BigDecimal grainCompleteRate;
+
+    /**互混*/
+    @TableField(value = "miscibility")
+    private BigDecimal miscibility;
+
+    /**不完善粒*/
+    @TableField(value = "uncomplete_grain")
+    private BigDecimal uncompleteGrain;
+
+    /**生霉*/
+    @TableField(value = "mildew")
+    private BigDecimal mildew;
+
+    /**热损伤粒*/
+    @TableField(value = "hot_damage")
+    private BigDecimal hotDamage;
+
+    /**未熟*/
+    @TableField(value = "immature")
+    private BigDecimal immature;
+
+    /**带壳*/
+    @TableField(value = "hull_grain")
+    private BigDecimal hullGrain;
+
+    /**破损粒*/
+    @TableField(value = "breakage_grain")
+    private BigDecimal breakageGrain;
+
+    /**破碎粒*/
+    @TableField(value = "broken_grain")
+    private BigDecimal brokenGrain;
+
+    /**病斑*/
+    @TableField(value = "disease_spot")
+    private BigDecimal diseaseSpot;
+
+    /**生芽*/
+    @TableField(value = "budding")
+    private BigDecimal budding;
+
+    /**生芽涨大*/
+    @TableField(value = "budding_rise")
+    private BigDecimal buddingRise;
+
+    /**虫蚀*/
+    @TableField(value = "insect_erosion")
+    private BigDecimal insectErosion;
+
+    /**白板*/
+    @TableField(value = "white_board")
+    private BigDecimal whiteBoard;
+
+    /**钢笔水豆*/
+    @TableField(value = "pen_water_bean")
+    private BigDecimal penWaterBean;
+
+    /**冻伤*/
+    @TableField(value = "frostbite")
+    private BigDecimal frostbite;
+
+    /**毒素*/
+    @TableField(value = "toxin")
+    private BigDecimal toxin;
+
+    /**呕吐毒素*/
+    @TableField(value = "emetic_toxin")
+    private BigDecimal emeticToxin;
+
+    /**黄曲霉素*/
+    @TableField(value = "aflatoxin")
+    private BigDecimal aflatoxin;
+
+    /**赤霉烯酮*/
+    @TableField(value = "zearalenone")
+    private BigDecimal zearalenone;
+
+    /**纯粮率*/
+    @TableField(value = "pure_grain_rate")
+    private BigDecimal pureGrainRate;
+
+    /**出成率*/
+    @TableField(value = "yield_rate")
+    private BigDecimal yieldRate;
+
+    /**完整粒率*/
+    @TableField(value = "complete_grain_rate")
+    private BigDecimal completeGrainRate;
+
+    /**损伤粒*/
+    @TableField(value = "damage")
+    private BigDecimal damage;
+
+    /**净米率*/
+    @TableField(value = "pure_rice_rate")
+    private BigDecimal pureRiceRate;
+
+    /**红米率*/
+    @TableField(value = "red_rice_rate")
+    private BigDecimal redRiceRate;
+
+    /**色泽、气味*/
+    @TableField(value = "color_smell")
+    private BigDecimal colorSmell;
+
+    /**沾泥粒*/
+    @TableField(value = "mud_grain")
+    private BigDecimal mudGrain;
+
+    /**并肩泥块*/
+    @TableField(value = "abreast_mud")
+    private BigDecimal abreastMud;
+
+    /**黑胚粒*/
+    @TableField(value = "black_embryo_grain")
+    private BigDecimal blackEmbryoGrain;
+
+    /**粒质*/
+    @TableField(value = "granular")
+    private BigDecimal granular;
+
+    /**有机杂质*/
+    @TableField(value = "organic_impurity")
+    private BigDecimal organicImpurity;
+
+    /**无机杂质*/
+    @TableField(value = "inorganic_impurity")
+    private BigDecimal inorganicImpurity;
+
+    /**湿面筋*/
+    @TableField(value = "wet_gluten")
+    private BigDecimal wetGluten;
+
+    /**变白率*/
+    @TableField(value = "whiteness_rate")
+    private BigDecimal whitenessRate;

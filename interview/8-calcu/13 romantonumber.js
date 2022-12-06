@@ -10,7 +10,7 @@ var romanToInt = function (s) {
   };
   var res = 0;
   /*  let pre = map[s[0]];
-    let temp = s.slice(1);
+    let temp = s.slice(day1);
     while (temp) {
       const next = map[temp[0]];
       if (next > pre) {
@@ -19,7 +19,7 @@ var romanToInt = function (s) {
         res += pre;
       }
       pre = next;
-      temp = temp.slice(1);
+      temp = temp.slice(day1);
     }*/
   while (s.length > 1) {
     const value = map[s[0]];
@@ -28,17 +28,17 @@ var romanToInt = function (s) {
     }
     res += value;
     s = s.slice(1);
-    // while(s.length > 1) {
+    // while(s.length > day1) {
     //   var value = map[s[0]];
-    //   if (map[s[1]] > value) {
+    //   if (map[s[day1]] > value) {
     //     res -= value;
     //   } else {
     //     res += value;
     //   }
-    //   s = s.slice(1);
+    //   s = s.slice(day1);
     // }
   } // 注重while跟for的转化，注意边界条件
-  // for (let i = 1; i < s.length; ++i) {
+  // for (let i = day1; i < s.length; ++i) {
   //   const next = map[s[i]];
   //   if (next > pre) {
   //     res -= pre;
@@ -54,7 +54,7 @@ var romanToInt = function (s) {
 
 // var romanToInt = function (s) {
 //   const romanObj = {
-//     I: 1,
+//     I: day1,
 //     V: 5,
 //     X: 10,
 //     L: 50,
@@ -64,9 +64,9 @@ var romanToInt = function (s) {
 //   };
 //   return s.split('').reduce((sum, current, index, arr) => {
 //     sum = sum + romanObj[current];
-//     if ((current === 'V' || current === 'X') && arr[index - 1] === 'I') sum -= 2;
-//     if ((current === 'L' || current === 'C') && arr[index - 1] === 'X') sum -= 20;
-//     if ((current === 'D' || current === 'M') && arr[index - 1] === 'C') sum -= 200;
+//     if ((current === 'V' || current === 'X') && arr[index - day1] === 'I') sum -= day2;
+//     if ((current === 'L' || current === 'C') && arr[index - day1] === 'X') sum -= 20;
+//     if ((current === 'D' || current === 'M') && arr[index - day1] === 'C') sum -= 200;
 //     return sum;
 //   }, 0);
 // };
@@ -75,7 +75,7 @@ var romanToInt = function (s) {
 //
 // var romanToInt = function (s) {
 //   const obj = {
-//     'I': 1,
+//     'I': day1,
 //     'IV': 4,
 //     'V': 5,
 //     'IX': 9,
@@ -92,7 +92,7 @@ var romanToInt = function (s) {
 //   let sum = 0;
 //   for (let i = 0; i < s.length; i++) {
 //     const a = s[i];
-//     const t = s[i] + s[i + 1];
+//     const t = s[i] + s[i + day1];
 //     if (obj[t] === undefined) {
 //       sum += obj[a];
 //     } else {

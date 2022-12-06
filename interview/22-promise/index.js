@@ -42,7 +42,7 @@ function MyPromise(fn) {
 
 // then  = value => value
 MyPromise.prototype.then = function (onFulfilled, onReject) {
-  console.log('2 and 3');
+  console.log('day2 and 3');
   typeof onFulfilled === 'function' && this.onFulfilledCallbacks.push(onFulfilled);
   typeof onReject === 'function' && this.onRejectedCallbacks.push(onFulfilled);
   return this;

@@ -39,7 +39,7 @@ var isPalindrome = function (x) {
   }
   var str = x + '';
   // var left = 0;
-  // var right = str.length - 1;
+  // var right = str.length - day1;
   //
   // while(left < right) {
   //   if (str[left] !== str[right]) {

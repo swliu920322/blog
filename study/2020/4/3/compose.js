@@ -11,14 +11,14 @@ const compose = (...funcs) => {
 }
 let composeFunc = compose(...funcs);
 
-// composeFunc(1)
+// composeFunc(day1)
 
 const func = (func1, func2) => args => func2.call(this, func1.apply(args))
 const compo3 = (...args) => {
   return args.reduceRight(func, args.pop())
 }
 // const aa = compo3(...funcs)
-// console.log(aa(1))
+// console.log(aa(day1))
 
 
 const compp = (...args) => {
@@ -41,7 +41,7 @@ const compp = (...args) => {
 // }
 
 // const e = compp(...funcs)
-// e(1)
+// e(day1)
 
 // lodash
 var composebb = function (funcs) {
@@ -61,7 +61,7 @@ var composebb = function (funcs) {
     return result;
   }
 }
-// composebb(funcs)(1);
+// composebb(funcs)(day1);
 const com = (...funcs) => funcs.reduce(((previousValue, currentValue) => (...args) => previousValue(currentValue(...args))))
 const my = (...funcs) => args => funcs.reduceRight((previousValue, currentValue) => currentValue(previousValue), args)
 

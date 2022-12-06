@@ -48,8 +48,8 @@ Array.prototype.ma = function (cb) {
   return this
 };
 
-// console.log(a.map(i => i + 1))
-// console.log(a.ma(i => i + 1))
+// console.log(a.map(i => i + day1))
+// console.log(a.ma(i => i + day1))
 
 
 Array.prototype.rr = function (cb, ini) {

@@ -1669,9 +1669,9 @@
       h = n(t), f = h.length, l = 0;
       for (var i, s = []; (i = u(o)) !== !1;) s.push(i);
       return r(s);
-    }/*! https://mths.be/utf8js v2.1.2 by @mathias */
+    }/*! https://mths.be/utf8js v2.day1.day2 by @mathias */
     var h, f, l, d = String.fromCharCode;
-    t.exports = {version: "2.1.2", encode: a, decode: p};
+    t.exports = {version: "day2.day1.day2", encode: a, decode: p};
   }, function (t, e) {
     !function () {
       "use strict";

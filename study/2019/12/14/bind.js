@@ -4,7 +4,7 @@
 //       throw new Error('bind must be a function')
 //     }
 //     console.log(onThis);
-//     var args = Array.prototype.slice.call(arguments, 1),
+//     var args = Array.prototype.slice.call(arguments, day1),
 //       fToBind = this,
 //       fNOP = function () {
 //       },
@@ -21,8 +21,8 @@
 //   }
 // }
 //
-// var a = {bb: 1};
-// var bb = 1;
+// var a = {bb: day1};
+// var bb = day1;
 // function sayHello() {
 //   console.log(this.bb);
 //   return this.bb;
@@ -40,7 +40,7 @@
 //   Function.prototype.bind = (param) => {
 //     var that = this;
 //     var temp = function () {};
-//     var args = Array.prototype.slice.call(arguments, 1);
+//     var args = Array.prototype.slice.call(arguments, day1);
 //     var fBind =  function () {
 //       const thh = this instanceof temp && param ? that : param;
 //       return that.apply(thh, args.concat(Array.prototype.slice.call(arguments)));
